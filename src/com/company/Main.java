@@ -3,11 +3,23 @@ package com.company;
 import com.sun.org.apache.xpath.internal.operations.Bool;
 
 import java.awt.*;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        char[] entrada ={1,0,0,1};
+        char w = 0;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Introduzca de la cadena: ");
+        int tamaño = scan.nextInt();
+        int entrada []=new int[tamaño];
+        System.out.println("Intruduzca la cadena");
+        for (int i = 0; i < entrada.length; i++) {
+            entrada[i]=scan.nextInt();
+
+        }
+
+        // char[] Entrada ={1,0,0,1};
         int inicio =1;
         int fin = 1;
         boolean Final = false;
@@ -61,4 +73,5 @@ public class Main {
 
     }
 }
+
 
