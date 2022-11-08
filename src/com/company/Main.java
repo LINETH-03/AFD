@@ -16,8 +16,8 @@ public class Main {
         System.out.println("Intruduzca la cadena");
         for (int i = 0; i < entrada.length; i++) {
             entrada[i]=scan.nextInt();
-
         }
+
 
         // char[] Entrada ={1,0,0,1};
         int inicio =1;
